@@ -6,10 +6,10 @@ function samecolor(){
   for(let h=0;h<section.length;h++){
     section[h].style.backgroundColor=color;
   }
-  //section[0].stlyle.opacity= 0.4;
-  //section[1].stlyle.opacity= 0.2;
-  //section[2].stlyle.opacity= 0.1;
-  //section[3].stlyle.opacity= 0.3;
+  section[0].stlyle.opacity= 0.3;
+  section[1].stlyle.opacity= 0.5;
+  section[2].stlyle.opacity= 0.7;
+  section[3].stlyle.opacity= 0.9;
 }
 //declare diffcolor() here
 function diffcolor(){
